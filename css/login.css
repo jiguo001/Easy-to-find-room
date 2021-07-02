@@ -22,19 +22,19 @@ body {
 
 .header_top a:first-child {
     background: url(../images/my/down.png) no-repeat top center;
-    background-size: .15rem;
+    background-size: .12rem;
 }
 
 .header_top a:last-child {
     background: url(../images/my/urse.png) no-repeat top center;
-    background-size: .15rem;
+    background-size: .12rem;
 }
 
 .header_top a {
     height: .35rem;
     padding-top: .18rem;
     box-sizing: border-box;
-    font-size: .14rem;
+    font-size: .12rem;
     color: #FAE7CE;
     margin-right: .2rem;
 }
