@@ -1,0 +1,77 @@
+/* 头部 */
+
+.header {
+    width: 100%;
+    height: .4rem;
+    background-color: #ff8a00;
+    display: flex;
+    padding: .1rem .3rem;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.header img {
+    height: .25rem;
+    margin-left: .1rem;
+}
+
+
+/* 头部 end */
+
+
+/* 底部版权 */
+
+.footer {
+    height: 2rem;
+    width: 100%;
+    background-color: #2f3130;
+    color: #859088;
+    box-sizing: border-box;
+    padding: .15rem;
+}
+
+.footer p,
+.footer span {
+    font-size: .14rem;
+}
+
+.footer-title {
+    border-bottom: 1px solid #3C3E3D;
+    padding-bottom: .15rem;
+}
+
+.footer>div {
+    text-align: center;
+}
+
+.footer>div span {
+    color: #859088;
+    text-align: center;
+}
+
+.footer>div:nth-child(2) {
+    display: flex;
+    margin: .18rem 0 .25rem;
+    justify-content: space-around;
+}
+
+.footer>div:nth-child(2) a {
+    display: flex;
+}
+
+.footer>div:nth-child(2) a img {
+    width: .22rem;
+}
+
+.footer>div:nth-child(2) a>span:nth-child(2) {
+    margin-left: .1rem;
+    font-size: .14rem;
+}
+
+.footer .phone {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* 底部版权 end */
