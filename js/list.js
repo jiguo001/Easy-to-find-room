@@ -43,4 +43,39 @@ $(function() {
             $(".t2 img").eq(3).toggle().siblings().hide();
         }
     })
+    $('.clist li').on({
+        touchstart: function() {
+            $(this).css("color", "#ff9332").siblings().css("color", "")
+        }
+    })
+    $('.iprice li').on({
+        touchstart: function() {
+            $(this).css("color", "#ff9332").siblings().css("color", "")
+        }
+    })
+    $('.intype .all').on({
+        touchstart: function() {
+            $(this).siblings().find("input").prop("checked", false)
+            $(this).siblings().find("span").css("color", '')
+            $(this).toggleClass("ns");
+
+        }
+    })
+    $(".intype li input").on({
+        change: function() {
+            // console.log($(this).prop('checked'));
+            $(this).parent().siblings(".all").removeClass('ns');
+            if ($(this).prop('checked')) {
+                $(this).siblings('span').css("color", "#ff9332")
+            } else {
+                $(this).siblings('span').css("color", "")
+
+            }
+        }
+    })
+    $(".area button").on({
+        touchstart: function() {
+            $(this).css("color", "#ff9332").siblings().css("color", "")
+        }
+    })
 })
