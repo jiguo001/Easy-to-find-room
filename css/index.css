@@ -1,0 +1,237 @@
+.main {
+    width: 100%;
+}
+
+.main-top {
+    width: 100%;
+    height: 2.2rem;
+    background: url(../images/index/banner.png) no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.main .search {
+    width: 80%;
+    height: .3rem;
+    position: absolute;
+    border: .03rem solid #EBEBEB;
+    box-sizing: border-box;
+    border-radius: .05rem;
+    font-size: .12rem;
+    padding-left: .25rem;
+    color: #9E9E9E;
+    background: #fff url(../images/index/seach.jpg) no-repeat .05rem .04rem;
+    background-size: .16rem;
+    box-shadow: -.02rem -.02rem #9A9A9A;
+    left: 50%;
+    bottom: .08rem;
+    transform: translateX(-50%);
+}
+
+.main .main-nav {
+    width: 100%;
+    height: 1.1rem;
+    margin-bottom: .1rem;
+    background-color: #ff8a00;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.main .main-nav a {
+    width: .55rem;
+    margin-top: .2rem;
+}
+
+.main .main-nav a p {
+    color: #fff;
+}
+
+.main .main-nav img {
+    width: 100%;
+}
+
+.main .main-new2 {
+    width: 100%;
+    margin-bottom: .15rem;
+}
+
+.main .main-new2 img {
+    width: 100%;
+}
+
+.main .main-hot_title {
+    width: 100%;
+    height: .6rem;
+    box-sizing: border-box;
+    padding: .1rem .2rem;
+    background-color: #ff8a00;
+}
+
+.main .main-hot_title h1 {
+    color: #fff;
+    font-size: .18rem;
+}
+
+.main .main-hot_title h6 {
+    color: #fff;
+    font-size: .12rem;
+}
+
+.main .main-hot_content {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 .2rem;
+    background-color: #fff;
+    border-bottom: 1px solid #EAEAEA;
+    margin-bottom: .05rem;
+}
+
+.main .main-hot_content li {
+    border-bottom: .02rem solid #FF0707;
+    padding: .25rem 0;
+    display: flex;
+}
+
+.main .main-hot_content li:last-child {
+    border: none;
+}
+
+.main .main-hot_content li img {
+    width: .8rem;
+    height: .8rem;
+}
+
+.main .main-hot_content li div {
+    padding-left: .1rem;
+    line-height: .22rem;
+}
+
+.main .main-hot_content li div h1 {
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.main .main-hot_content li div p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .main-hot_content li div p .hot-square {
+    font-size: .14rem;
+}
+
+.main .main-hot_content li div p .hot-price {
+    font-size: .14rem;
+    font-weight: 600;
+    color: #FF8A00;
+}
+
+.main .main-hot_content li div p .hot-pos {
+    font-size: .1rem;
+    color: #919191;
+}
+
+.main .main-hot_content li div p:last-child {
+    justify-content: left;
+}
+
+.main .main-hot_content li div p:last-child a {
+    font-size: .1rem;
+    background-color: #F4F7F9;
+    color: #92A5B7;
+    padding: 0 .05rem;
+    margin-left: .05rem;
+}
+
+.main .main-hot_focus {
+    border-top: 1px solid #EAEAEA;
+    background-color: #fff;
+}
+
+.main .main-hot_focus-title {
+    display: flex;
+    height: .55rem;
+    line-height: .55rem;
+    border-bottom: 2px solid #ff8a00;
+}
+
+.main .main-hot_focus-title a {
+    flex: 1;
+    text-align: center;
+    height: .54rem;
+    color: #6D6D6D;
+    font-size: .18rem;
+}
+
+.main .main-hot_focus-title a:first-child {
+    color: #ff8a00;
+    border-bottom: 2px solid #ff8a00;
+}
+
+.main .main-hot_focus-content {
+    display: flex;
+}
+
+.main .main-hot_focus-content div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: .1rem .2rem;
+    box-sizing: border-box;
+    line-height: .3rem;
+}
+
+.main .main-hot_focus-content div a {
+    font-size: .13rem;
+    color: #6D6D6D;
+}
+
+aside {
+    height: .4rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: space-between;
+}
+
+aside a {
+    color: #ffF;
+}
+
+aside a:first-child {
+    padding-left: .3rem;
+}
+
+aside a:first-child img:last-child {
+    width: .3rem;
+    margin-top: .05rem;
+}
+
+aside a:first-child img:first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: .15rem;
+}
+
+aside a:last-child {
+    width: 1.1rem;
+    line-height: .4rem;
+    text-align: center;
+    background-color: #ff8a00;
+}
+
+aside a:nth-child(2) {}
+
+aside a:nth-child(2) p:first-child {
+    font-size: .18rem;
+}
+
+aside a:nth-child(2) p:last-child {
+    font-size: .12rem;
+}
