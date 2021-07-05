@@ -1,4 +1,5 @@
 /* 轮播 */
+
 nav .swiper-container .swiper-wrapper .swiper-slide img {
     width: 100%;
 }
@@ -11,7 +12,9 @@ nav .swiper-container .swiper-wrapper .swiper-slide img {
     width: 20%;
 }
 
+
 /* 介绍 */
+
 .introduce {
     padding: 0.1rem;
     font-size: .14rem;
@@ -60,7 +63,9 @@ nav .gap {
     border: 1px solid #b7b3b3;
 }
 
+
 /* 房型 */
+
 nav .charmber {
     display: flex;
     border-bottom: 1px solid #b7b3b3;
@@ -80,7 +85,9 @@ nav .charmber span {
     color: #b7b3b3;
 }
 
+
 /* 房源特色 */
+
 nav>.charmber:last-of-type,
 nav .feature>.charmber:last-of-type {
     border: none;
@@ -100,7 +107,9 @@ nav .feature .charmber {
     line-height: 0.35rem;
 }
 
+
 /* 户型分间 */
+
 nav .unit .pattern {
     padding: 0.1rem;
 }
@@ -146,7 +155,9 @@ nav .unit .pattern .pattern2 img {
     padding: .03rem;
 }
 
+
 /* 对口学校 */
+
 nav .school .charmber,
 nav .location .charmber,
 nav .recommend .charmber {
@@ -168,13 +179,17 @@ nav .school .charmber:last-of-type {
     border: none;
 }
 
+
 /* 位置及周边 */
+
 nav .location img {
     padding: 0.1rem .1rem;
     width: 93%;
 }
 
+
 /* 推荐房源 */
+
 nav .recommend .house {
     padding: 0.1rem;
     border-bottom: 1px solid #b7b3b3;
@@ -220,10 +235,10 @@ nav .recommend .house_son .house_p2 span:nth-child(2) {
 }
 
 nav .recommend .house_son .house_p3 {
+    color: #859BAF;
     font-size: .12rem;
     width: .4rem;
     height: .16rem;
-    color: #859BAF;
     background-color: #dddcdc;
 }
 
@@ -250,7 +265,14 @@ nav .recommend .charmber:last-of-type {
     text-align: center;
 }
 
+nav .recommend .charmber:last-of-type a {
+    color: #859BAF;
+    font-size: .12rem;
+}
+
+
 /* 最后的最后 */
+
 .zuihou {
     padding: 0.05rem 0.1rem 0;
     display: flex;
