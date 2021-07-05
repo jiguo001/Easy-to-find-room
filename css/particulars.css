@@ -1,0 +1,277 @@
+/* 轮播 */
+nav .swiper-container .swiper-wrapper .swiper-slide img {
+    width: 100%;
+}
+
+.swiper-pagination {
+    background-color: rgba(0, 0, 0, .3);
+    color: rgb(255, 255, 255);
+    border-radius: .1rem;
+    display: inline-block;
+    width: 20%;
+}
+
+/* 介绍 */
+.introduce {
+    padding: 0.1rem;
+    font-size: .14rem;
+    border-bottom: 1px solid #adacac;
+}
+
+.introduce h2 {
+    font-size: .18rem;
+    padding-right: 0.1rem;
+}
+
+.introduce .price {
+    margin: 0.1rem 0;
+}
+
+.introduce .price span {
+    color: #DB4C3F;
+    font-weight: 700;
+}
+
+.introduce .price img {
+    height: 0.2rem;
+    float: right;
+}
+
+.introduce .dame {
+    color: #b7b3b3;
+    margin-bottom: .1rem;
+}
+
+.introduce .label {
+    margin: 0.05rem 0;
+}
+
+.introduce .label span {
+    display: inline-block;
+    background-color: #DEE9F0;
+    color: #859BAF;
+    margin-right: 0.1rem;
+    padding: .05rem;
+}
+
+nav .gap {
+    height: 0.1rem;
+    background-color: #dddcdc;
+    border: 1px solid #b7b3b3;
+}
+
+/* 房型 */
+nav .charmber {
+    display: flex;
+    border-bottom: 1px solid #b7b3b3;
+    padding: .05rem 0;
+    margin: 0 .1rem;
+    font-size: .14rem;
+}
+
+nav .charmber li {
+    flex: 1;
+}
+
+nav .charmber span {
+    padding: .05rem 0;
+    margin: 0 auto;
+    font-size: .12rem;
+    color: #b7b3b3;
+}
+
+/* 房源特色 */
+nav>.charmber:last-of-type,
+nav .feature>.charmber:last-of-type {
+    border: none;
+}
+
+nav .feature .features,
+nav .unit .features {
+    color: #FF9332;
+    font-size: .18rem;
+    margin: 0 .1rem;
+    border-bottom: 1px solid #b7b3b3;
+    font-weight: 700;
+    padding: 0.1rem 0;
+}
+
+nav .feature .charmber {
+    line-height: 0.35rem;
+}
+
+/* 户型分间 */
+nav .unit .pattern {
+    padding: 0.1rem;
+}
+
+nav .unit .pattern .pattern1,
+nav .unit .pattern .pattern2 {
+    padding: 0.2rem 0;
+    border-bottom: 1px solid #FF9332;
+}
+
+nav .unit .pattern .pattern2 {
+    border: none;
+}
+
+nav .unit .pattern .pattern1 img,
+nav .unit .pattern .pattern2 img {
+    width: 25%;
+}
+
+.san {
+    width: 70%;
+    display: inline-block;
+    font-size: .13rem;
+}
+
+.san h5 {
+    display: inline-block;
+    font-weight: 400;
+    margin: 0.1rem 0 0.05rem;
+    font-size: .13rem;
+}
+
+.san .label {
+    margin: 0.05rem 0;
+}
+
+.san .label span {
+    display: inline-block;
+    background-color: #DEE9F0;
+    color: #859BAF;
+    margin-right: 0.1rem;
+    font-size: .12rem;
+    padding: .03rem;
+}
+
+/* 对口学校 */
+nav .school .charmber,
+nav .location .charmber,
+nav .recommend .charmber {
+    display: block;
+    font-size: .12rem;
+    height: 0.3rem;
+    line-height: .3rem;
+}
+
+nav .school .charmber:first-child,
+nav .location .charmber,
+nav .recommend .charmber {
+    font-size: .16rem;
+    font-weight: 700;
+}
+
+nav .school .charmber:last-of-type {
+    text-align: center;
+    border: none;
+}
+
+/* 位置及周边 */
+nav .location img {
+    padding: 0.1rem .1rem;
+    width: 93%;
+}
+
+/* 推荐房源 */
+nav .recommend .house {
+    padding: 0.1rem;
+    border-bottom: 1px solid #b7b3b3;
+}
+
+nav .recommend .house img {
+    width: 32%;
+}
+
+nav .recommend .house img,
+nav .recommend .house .house_son {
+    display: inline-block;
+}
+
+nav .recommend .house_son b {
+    font-size: .14rem;
+}
+
+nav .recommend .house_son .house_p {
+    height: .2rem;
+    font-size: .12rem;
+    font-weight: bold;
+}
+
+nav .recommend .house_son .house_p2 {
+    height: .2rem;
+    font-size: .12rem;
+    color: #b7b3b3;
+}
+
+nav .recommend .house_son .house_p span:nth-child(1),
+nav .recommend .house_son .house_p2 span:nth-child(1) {
+    float: left;
+}
+
+nav .recommend .house_son .house_p span:nth-child(2) {
+    float: right;
+    color: #ff8a00;
+}
+
+nav .recommend .house_son .house_p2 span:nth-child(2) {
+    float: right;
+}
+
+nav .recommend .house_son .house_p3 {
+    font-size: .12rem;
+    width: .4rem;
+    height: .16rem;
+    color: #859BAF;
+    background-color: #dddcdc;
+}
+
+nav .recommend .house .house_div {
+    height: .24rem;
+    line-height: .24rem;
+    font-size: .14rem;
+    color: #888;
+    background-color: #ccc;
+    padding-left: .15rem;
+    position: relative;
+}
+
+nav .recommend .house .house_div .house_div_son {
+    border-width: .07rem;
+    border-color: transparent transparent #ccc transparent;
+    border-style: solid;
+    position: absolute;
+    top: -.12rem;
+    left: .04rem;
+}
+
+nav .recommend .charmber:last-of-type {
+    text-align: center;
+}
+
+/* 最后的最后 */
+.zuihou {
+    padding: 0.05rem 0.1rem 0;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    line-height: .4rem;
+    height: 0.4rem;
+}
+
+.zuihou .zuihou1 {
+    flex: 2;
+    background: #ff8a00 url(../images/SecondHandList/user.png)no-repeat 0.3rem 0.08rem;
+    color: #fff;
+    border-radius: 0.05rem;
+    background-size: 0.25rem;
+}
+
+.zuihou .zuihou2 {
+    flex: 1;
+    color: #888;
+    background: url(../images/SecondHandList/xin.png) no-repeat 0.1rem 0.08rem;
+    background-size: 0.25rem;
+}
