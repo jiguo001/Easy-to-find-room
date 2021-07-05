@@ -229,6 +229,9 @@ article .classify .t2 img:nth-child(4) {
   height: 0.15rem;
   width: 0.15rem;
 }
+.type .intype .ns {
+  color: #ff9332;
+}
 .type .intype li:last-of-type {
   border-bottom: none;
 }
@@ -271,5 +274,7 @@ article .classify .t2 img:nth-child(4) {
   background-color: #ff4911;
   border: 0.01rem solid #ff4911;
   padding: 0.08rem 0;
+}
+.more .inmore .affirm a {
   color: #fff;
 }
